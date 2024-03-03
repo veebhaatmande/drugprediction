@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 from utils import predict_drug_type
-import 
 
 app = Flask(__name__)
 
